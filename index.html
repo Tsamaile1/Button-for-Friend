@@ -19,13 +19,7 @@
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_downward"
     />
     <style>
-      body {
-        background-color: #fdebe6;
-      }
-      img {
-        width: 300px;
-        height: 300px;
-      }
+      
 
       button {
         font-family: "Pacifico", cursive;
@@ -35,65 +29,18 @@
         border-style: none;
         width: 940px;
         background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
-        margin-top: 365px;
-        margin-bottom: 20px;
+        margin-top:25%;
+        margin-left: 25%;
+        justify-content: center;
+        border-radius: 15px;
       }
       #click:hover {
         opacity: 0.6;
         cursor: grab;
       }
-      .image-gallery1 {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 20px;
-        transition: all 1000ms ease-in-out;
-        rotate: 360deg;
-        margin-top: 0px;
-        position: absolute;
-      }
-      .image-gallery2 {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 20px;
-        transition: all 1000ms ease-in-out;
-        rotate: 360deg;
-        position: absolute;
-        margin-top: 0px;
-      }
-      .row1 {
-        height: 350px;
-        width: 300px;
-        background-color: white;
-      }
-      .row2 {
-        height: 350px;
-        width: 300px;
-        background-color: white;
-        margin-top: 0px;
-      }
-
-      .row1position {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 20px;
-        transition: all 1000ms ease-in-out;
-        rotate: 360deg;
-        z-index: -1;
-        position: absolute;
-      }
-      .row2position {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 20px;
-        transition: all 1000ms ease-in-out;
-        rotate: 360deg;
-        z-index: -1;
-        position: absolute;
-      }
-      .r1 {
-        display: block;
-        margin: 0 auto;
-      }
+     
+      
+     
       span {
         color: red;
       }
@@ -101,17 +48,7 @@
   </head>
 
   <body>
-    <div class="r1">
-      <div class="row1position">
-        <div class="row1"></div>
-        <div class="row1"></div>
-        <div class="row1"></div>
-      </div>
-      <div class="image-gallery1">
-        <img src="images/Screenshot_20250520_025822_WhatsApp.jpg" alt="" />
-        <img src="images/Screenshot_20250520_025859_WhatsApp.jpg" alt="" />
-        <img src="images/Screenshot_20250520_025955_WhatsApp.jpg" alt="" />
-      </div>
+    
 
       <div id="content">
         <button id="click">
@@ -120,17 +57,9 @@
           </h1>
         </button>
       </div>
-      <div class="row2position">
-        <div class="row2"></div>
-        <div class="row2"></div>
-        <div class="row2"></div>
+     
       </div>
-      <div class="image-gallery2">
-        <img src="images/Screenshot_20250520_030031_WhatsApp.jpg" alt="" />
-        <img src="images/Screenshot_20250520_030148_WhatsApp.jpg" alt="" />
-        <img src="images/Screenshot_20250520_030259_WhatsApp.jpg" alt="" />
-      </div>
-    </div>
+      
     <script>
       function greetSteezy(event) {
         let helloElement = document.querySelector("#hello");
